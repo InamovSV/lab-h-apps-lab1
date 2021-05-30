@@ -1,0 +1,39 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta property="og:title" content="">
+  <meta property="og:type" content="">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="">
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+
+  <meta name="theme-color" content="#fafafa">
+</head>
+
+<body>
+<p>Lab 1. RC фильтр низких частот первого порядка.</p>
+<form id="filter-form">
+  <input type="number" id="sampling" placeholder="sampling">
+  <input type="number" id="cutoff" placeholder="cutoff">
+  <input type="file" id="buffered-signal">
+  <input type="submit" value="Calculate">
+</form>
+<canvas id="myChart" width="200" height="100"></canvas>
+
+<script src="js/vendor/modernizr-3.11.2.min.js"></script>
+<script src="js/plugins.js"></script>
+<script src="js/main.js"></script>
+
+<a href="/data/inamov.da1" id="result-loader" class="hidden" download>result</a>
+
+</body>
+
+</html>

@@ -1,0 +1,30 @@
+{
+  "name": "highload_lab1",
+  "version": "0.0.1",
+  "description": "",
+  "license": "",
+  "author": "",
+  "scripts": {
+    "build": "parcel build index.html",
+    "dev": "parcel index.html --open",
+    "start": "npm run build && npm run dev",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "@babel/plugin-transform-async-to-generator": "^7.13.0",
+    "@babel/polyfill": "^7.12.1",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.2.2",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "babelify": "^10.0.0",
+    "bindings": "^1.5.0",
+    "deasync": "^0.1.20",
+    "parcel": "^2.0.0-nightly.389"
+  },
+  "dependencies": {
+    "chart.js": "^2.9.4",
+    "mathjs": "^9.4.1"
+  }
+}
